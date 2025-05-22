@@ -52,6 +52,24 @@ export default function Home() {
             </section>
             
             <section>
+              <h2 className="text-2xl font-semibold mb-4 text-[#ff55e8]">
+                SMS/Text Messaging Consent
+              </h2>
+              
+              <p className="mb-6 text-gray-300">
+                By submitting the Tally.so form linked to this page, you expressly consent to receive text messages from us regarding your inquiry, follow-up information, and related services. After you submit the form, we will reach out to you via the phone number you provided. Message frequency may vary. You understand that these messages will be sent using automated technology.
+              </p>
+              
+              <p className="mb-6 text-gray-300">
+                You are not required to provide consent to receive text messages as a condition of purchasing any property, goods, or services. Message and data rates may apply. You can opt out of receiving text messages at any time by replying "STOP" to any message you receive from us, or by contacting us directly. For help, reply "HELP" to any message you receive.
+              </p>
+              
+              <p className="mb-6 text-gray-300">
+                By providing your consent, you confirm that you are the subscriber to the provided phone number or are authorized to provide consent on behalf of the subscriber. This consent applies to any renewal, extension, or modification of your relationship with us.
+              </p>
+            </section>
+            
+            <section>
               <h2 className="text-2xl font-semibold mb-4">
                 Communications
               </h2>
@@ -92,6 +110,20 @@ export default function Home() {
               
               <p className="mb-6 text-gray-300">
                 You understand and acknowledge that the messaging services provided by Curran Advani are offered on behalf of a licensed brokerage. All communications and services are subject to oversight by the brokerage and applicable regulatory requirements. The brokerage may have access to communications and data as required for compliance purposes.
+              </p>
+            </section>
+            
+            <section className="border-t border-gray-700 pt-8">
+              <h2 className="text-2xl font-semibold mb-4 text-[#ff55e8]">
+                Your Rights & Opt-Out
+              </h2>
+              
+              <p className="mb-6 text-gray-300">
+                You always maintain the right to opt out of receiving messages from us at any time. If at any point you wish to stop receiving messages, simply reply "STOP" to any text message you receive from us, or contact us directly. Your opt-out request will be processed within 10 business days. Please note that opting out of messaging may impact our ability to provide certain services to you.
+              </p>
+              
+              <p className="mb-6 text-gray-300">
+                If you have any questions about this messaging consent or our services, please contact us at [your contact information].
               </p>
             </section>
           </div>
