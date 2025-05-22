@@ -1,101 +1,102 @@
-import Image from "next/image";
+import React from 'react';
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <div className="min-h-screen bg-black text-white">
+      {/* Navigation */}
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+
+      {/* Main Content */}
+      <main className="px-8 py-16 relative">
+        {/* Decorative elements - keeping other elements except the green one */}
+        <div className="absolute left-0 top-40 w-40 h-2 bg-[#ff55e8] transform -rotate-12 opacity-80 hidden md:block z-0"></div>
+        <div className="absolute right-20 bottom-40 w-32 h-32 rounded-full bg-[#ffcc00] opacity-80 hidden md:block z-0"></div>
+        <div className="absolute right-60 top-80 w-4 h-40 bg-[#38bdf8] opacity-80 hidden md:block z-0"></div>
+        
+        <div className="max-w-4xl mx-auto relative z-10">
+          <h1 className="text-5xl font-bold mb-10 leading-tight">
+            Curran Advani<br />User Agreement
+          </h1>
+          
+          <p className="text-xl mb-3 text-gray-300">
+            EFFECTIVE DATE: OCTOBER 15, 2023
+          </p>
+          
+          <p className="mb-8 text-lg text-gray-300">
+            PROVIDING MESSAGING SERVICES ON BEHALF OF LICENSED BROKERAGE
+          </p>
+          
+          <div className="space-y-10 my-16">
+            <section>
+              <h2 className="text-2xl font-semibold mb-4">
+                Agreement Overview
+              </h2>
+              
+              <p className="mb-6 text-gray-300">
+                This User Agreement (the "Agreement") is a legal agreement between you and CURRAN ADVANI, who provides services on behalf of a licensed brokerage. It governs your use of the 
+                messaging services (the "Service") provided through the brokerage. By using the Service, you consent to terms of this Agreement and to the terms of
+                the Privacy Policy posted on our website.
+              </p>
+            </section>
+            
+            <section>
+              <h2 className="text-2xl font-semibold mb-4">
+                Accessing the Service
+              </h2>
+              
+              <p className="mb-6 text-gray-300">
+                The Service is made available to you only for your private use, or if you are signing up on behalf of your company, for the use of your
+                company. You acknowledge that the messaging services provided are offered through a licensed brokerage and are subject to applicable regulations. You are solely responsible for any activity that occurs under your user name, including all compliance with
+                applicable laws and regulations.
+              </p>
+            </section>
+            
+            <section>
+              <h2 className="text-2xl font-semibold mb-4">
+                Communications
+              </h2>
+              
+              <p className="mb-6 text-gray-300">
+                When you use our messaging services or send communications to us, you are communicating with us electronically. You consent to receive
+                communications from us electronically. We will communicate with you by text message, e-mail, through our platform,
+                or by posting notices on our website. These communications are provided on behalf of the brokerage and are subject to their policies as well.
+              </p>
+            </section>
+            
+            <section>
+              <h2 className="text-2xl font-semibold mb-4">
+                Data & Privacy
+              </h2>
+              
+              <p className="mb-6 text-gray-300">
+                In using the Service, you acknowledge that we, the brokerage, and/or our third party partners are authorized to copy and store such data for backup
+                purposes and to access same to extent necessary for support purposes. You agree to comply with all data privacy and other laws with
+                regard to the data we store for you. Any information collected may be shared with the brokerage as required by law or regulation.
+              </p>
+            </section>
+            
+            <section>
+              <h2 className="text-2xl font-semibold mb-4">
+                Payment Terms
+              </h2>
+              
+              <p className="mb-6 text-gray-300">
+                By providing a payment method, you are expressly agreeing that we are authorized to charge you for your subscription and any applicable taxes. Payments are processed on behalf of the brokerage for the services provided. If your payment method fails or your account is past due, we reserve the right to suspend your access to the Service.
+              </p>
+            </section>
+            
+            <section>
+              <h2 className="text-2xl font-semibold mb-4">
+                Brokerage Relationship
+              </h2>
+              
+              <p className="mb-6 text-gray-300">
+                You understand and acknowledge that the messaging services provided by Curran Advani are offered on behalf of a licensed brokerage. All communications and services are subject to oversight by the brokerage and applicable regulatory requirements. The brokerage may have access to communications and data as required for compliance purposes.
+              </p>
+            </section>
+          </div>
         </div>
       </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
     </div>
   );
 }
