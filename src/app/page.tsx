@@ -123,7 +123,7 @@ export default function Home() {
               </p>
               
               <p className="mb-6 text-gray-300">
-                If you have any questions about this messaging consent or our services, please contact us at [your contact information].
+                If you have any questions about this messaging consent or our services, please contact us at advanicurran@gmail.com.
               </p>
             </section>
           </div>
