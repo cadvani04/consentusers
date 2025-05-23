@@ -19,11 +19,11 @@ export default function Home() {
           </h1>
           
           <p className="text-xl mb-3 text-gray-300">
-            EFFECTIVE DATE: OCTOBER 15, 2023
+            EFFECTIVE DATE: MAY 22, 2025
           </p>
           
           <p className="mb-8 text-lg text-gray-300">
-            PROVIDING MESSAGING SERVICES ON BEHALF OF LICENSED BROKERAGE
+            PROVIDING MESSAGING SERVICES ON BEHALF OF ANDERSON CHRISTIE AT SANTA CRUZ, CA
           </p>
           
           <div className="space-y-10 my-16">
@@ -33,8 +33,8 @@ export default function Home() {
               </h2>
               
               <p className="mb-6 text-gray-300">
-                This User Agreement (the "Agreement") is a legal agreement between you and CURRAN ADVANI, who provides services on behalf of a licensed brokerage. It governs your use of the 
-                messaging services (the "Service") provided through the brokerage. By using the Service, you consent to terms of this Agreement and to the terms of
+                This User Agreement (the "Agreement") is a legal agreement between you and CURRAN ADVANI, who provides services on behalf of Anderson Christie at Santa Cruz, CA. It governs your use of the 
+                messaging services (the "Service") provided through Anderson Christie. By using the Service, you consent to terms of this Agreement and to the terms of
                 the Privacy Policy posted on our website.
               </p>
             </section>
@@ -46,7 +46,7 @@ export default function Home() {
               
               <p className="mb-6 text-gray-300">
                 The Service is made available to you only for your private use, or if you are signing up on behalf of your company, for the use of your
-                company. You acknowledge that the messaging services provided are offered through a licensed brokerage and are subject to applicable regulations. You are solely responsible for any activity that occurs under your user name, including all compliance with
+                company. You acknowledge that the messaging services provided are offered through Anderson Christie at Santa Cruz, CA and are subject to applicable regulations. You are solely responsible for any activity that occurs under your user name, including all compliance with
                 applicable laws and regulations.
               </p>
             </section>
@@ -57,7 +57,7 @@ export default function Home() {
               </h2>
               
               <p className="mb-6 text-gray-300">
-                By submitting the Tally.so form linked to this page, you expressly consent to receive text messages from us regarding your inquiry, follow-up information, and related services. After you submit the form, we will reach out to you via the phone number you provided. Message frequency may vary. You understand that these messages will be sent using automated technology.
+                By submitting the Tally.so form linked to this page, you expressly consent to receive text messages from Curran Advani, on behalf of Anderson Christie at Santa Cruz, CA. Message frequency may vary, and these messages will include information regarding your inquiry, follow-up information, and related services. After you submit the form, we will reach out to you via the phone number you provided. You understand that these messages will be sent using automated technology.
               </p>
               
               <p className="mb-6 text-gray-300">
@@ -77,7 +77,7 @@ export default function Home() {
               <p className="mb-6 text-gray-300">
                 When you use our messaging services or send communications to us, you are communicating with us electronically. You consent to receive
                 communications from us electronically. We will communicate with you by text message, e-mail, through our platform,
-                or by posting notices on our website. These communications are provided on behalf of the brokerage and are subject to their policies as well.
+                or by posting notices on our website. These communications are provided on behalf of Anderson Christie at Santa Cruz, CA and are subject to their policies as well.
               </p>
             </section>
             
@@ -87,9 +87,9 @@ export default function Home() {
               </h2>
               
               <p className="mb-6 text-gray-300">
-                In using the Service, you acknowledge that we, the brokerage, and/or our third party partners are authorized to copy and store such data for backup
+                Your data will not be sold or shared with third parties for marketing purposes. In using the Service, you acknowledge that we, Anderson Christie at Santa Cruz, CA, and/or our third party partners are authorized to copy and store such data for backup
                 purposes and to access same to extent necessary for support purposes. You agree to comply with all data privacy and other laws with
-                regard to the data we store for you. Any information collected may be shared with the brokerage as required by law or regulation.
+                regard to the data we store for you. Any information collected may be shared with Anderson Christie as required by law or regulation.
               </p>
             </section>
             
@@ -99,7 +99,7 @@ export default function Home() {
               </h2>
               
               <p className="mb-6 text-gray-300">
-                By providing a payment method, you are expressly agreeing that we are authorized to charge you for your subscription and any applicable taxes. Payments are processed on behalf of the brokerage for the services provided. If your payment method fails or your account is past due, we reserve the right to suspend your access to the Service.
+                By providing a payment method, you are expressly agreeing that we are authorized to charge you for your subscription and any applicable taxes. Payments are processed on behalf of Anderson Christie at Santa Cruz, CA for the services provided. If your payment method fails or your account is past due, we reserve the right to suspend your access to the Service.
               </p>
             </section>
             
@@ -109,7 +109,7 @@ export default function Home() {
               </h2>
               
               <p className="mb-6 text-gray-300">
-                You understand and acknowledge that the messaging services provided by Curran Advani are offered on behalf of a licensed brokerage. All communications and services are subject to oversight by the brokerage and applicable regulatory requirements. The brokerage may have access to communications and data as required for compliance purposes.
+                You understand and acknowledge that the messaging services provided by Curran Advani are offered on behalf of Anderson Christie at Santa Cruz, CA. All communications and services are subject to oversight by Anderson Christie and applicable regulatory requirements. Anderson Christie may have access to communications and data as required for compliance purposes.
               </p>
             </section>
             
